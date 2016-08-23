@@ -1,0 +1,93 @@
+html, body{
+    margin: 0;
+    background: #ddd;
+    font-family: sans-serif;
+}
+.wrapper{
+    width: 500px;
+    height: 698px;
+    padding: 5px;
+    margin: 100px auto;
+    background: #efefef;
+}
+.banner{
+    height: 80px;
+    width: 100%;
+}
+.banner p {
+    float: left;
+    display: inline-block;
+}
+.banner h1{
+    color: #14d212;
+}
+#historyMsg{
+    height: 400px;
+    background: #fff;
+    overflow: hidden;
+    padding: 2px;
+}
+.timespan {
+    color: #ddd;
+}
+.controls{
+    height: 100px;
+    margin: 5px 0;
+    position: relative;
+}
+.items{
+    height: 30px;
+}
+#colorStyle{
+    width: 50px;
+    border: none;
+    padding: 0;
+}
+#messageInput{
+    width: 495px;
+    max-width: 495px;
+    height: 90px;
+    max-height: 120px;
+}
+#sendBtn{
+    width: 70px;
+    height: 30px;
+    float: right;
+}
+#emojiWrapper{
+    display: none;
+    width: 500px;
+    bottom: 105px;
+    position: absolute;
+    background: #aaaaaa;
+    -webkit-box-shadow: 0 0 10px #555;
+    -moz-box-shadow: 0 0 10px #555;
+    box-shadow: 0 0 10px #555;
+}
+#emojiWrapper img{
+    margin: 2px;
+    padding: 2px;
+    width: 25px;
+    height: 25px;
+}
+#emojiWrapper img:hover{
+    background: #14d212;
+}
+.emoji{
+    display: inline;
+}
+#loginWrapper{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(5, 5, 5, .6);
+    text-align: center;
+    color: #ffffff;
+    display: block;
+    padding-top: 200px;
+}
+#nickWrapper{
+    display: none;
+}
